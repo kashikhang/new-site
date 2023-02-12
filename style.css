@@ -1,73 +1,49 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: century gothic;
+body {
+    background-color: black;
 }
-header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./1.\ \(2\).jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-ul{
+
+ul {
     list-style-type: none;
     float: right;
-    margin-top: 30px;
+    margin-top: 50px;
 }
-ul li{
-    display: inline-block;
-}
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    padding: 5px 20px;
-    border: 1px solid #fff;
-    transition: 0.6s ease;
-}
-ul li a:hover{
-    background-color: #fff;
-    color: #000;
-}
-ul li.active a{
-    background-color: #fff;
-    color: #000;
 
-
-} 
-header div div img{
-    float: left;
-    width: 150px;
-    height: auto;
-}
- div main{
-    max-width: 1200px;
-    margin: auto;
- }
-.title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.title h1{
+ul li {
+    display: inline;
+    margin: 1em;
+    padding: 15px 8px;
     color: white;
-    font-size: 300%;
-  }
-  .button{
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }
-.btn{
-    border: 1px solid#fff;
-    padding: 5px 40px;
+
+}
+
+ul li a {
     color: white;
     text-decoration: none;
-    transition:0.6s ease;
 }
-.btn:hover{
-    background-color: #fff;
-    color: #000;   
+
+ul li a:hover {
+    border-radius: 3px;
+    background-color: rgb(141, 132, 132);
+    border: 10px solid transparent;
+    color: black;
+
 }
-Footer
+
+header {
+    background-image: linear-gradient(#1f1c1d, #52484c);
+    font-size: 1.5em;
+    color: white;
+    hight: 50px;
+    text-decoration: none;
+    margin-top: 0.5em;
+    border: 1px solid white;
+}
+
+.image {
+    padding-top: 0.5em;
+    margin-bottom: 0%;
+}
+
+.img {
+    margin-left: 2em;
+}
